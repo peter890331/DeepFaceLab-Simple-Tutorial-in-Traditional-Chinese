@@ -10,7 +10,7 @@
 
 [1]: https://youtu.be/6-KPIXEajk8
 
-![image](https://github.com/user-attachments/assets/f6d7f3bc-697a-4af4-bc5e-82f8398e0a48)
+<img src= "https://github.com/peter890331/DeepFaceLab-Simple-Tutorial-in-Traditional-Chinese/blob/screenshots/404410172-f6d7f3bc-697a-4af4-bc5e-82f8398e0a48.png" width="1000px">
 
 ## [DeepFaceLab][2]
 Releases：[Windows (Mega.nz)][3].    
@@ -20,7 +20,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 其 [GitHub][2] 中還有其他下載連結。
 
 在此以 DeepFaceLab_NVIDIA_RTX3000_series_build_11_20_2021.exe 為例，下載後解壓縮成資料夾，    
-![image](https://github.com/user-attachments/assets/0a2d30a8-88f7-4c44-bfb2-a98f308e683d)
+<img src= "https://github.com/peter890331/DeepFaceLab-Simple-Tutorial-in-Traditional-Chinese/blob/screenshots/404389636-0a2d30a8-88f7-4c44-bfb2-a98f308e683d.png" width="500px">
 
 ---
 
@@ -28,8 +28,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 
 將要摳臉的影片存入 workspace 並命名為 **data_src.mp4**；    
 將要換臉的影片存入 workspace 並命名為 **data_dst.mp4**。      
-![image](https://github.com/user-attachments/assets/e1621411-bfb4-45f3-9914-4127c370d437)
-
+<img src= "https://github.com/peter890331/DeepFaceLab-Simple-Tutorial-in-Traditional-Chinese/blob/screenshots/404409391-e1621411-bfb4-45f3-9914-4127c370d437.png" width="150px">
 
 ---
 
@@ -136,11 +135,11 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
  [0] Which GPU indexes to choose? : 選擇使用 CPU 還是使用顯卡，一定要使用顯卡，默認為 0。
 
 開始運行後，會跳出可提供預覽的窗口，    
-![image](https://github.com/user-attachments/assets/90d14538-26ac-483a-8135-88471766fd2a)
+<img src= "https://github.com/peter890331/DeepFaceLab-Simple-Tutorial-in-Traditional-Chinese/blob/screenshots/404402099-90d14538-26ac-483a-8135-88471766fd2a.png" width="500px">
 
 以英文輸入法對預覽窗口按下 p 鍵，可以更新預覽窗口，      
 觀察最右行可以得知目前模型的訓練結果，上面也會顯示目前的 Iter(迭代次數)。    
-![image](https://github.com/user-attachments/assets/26ce75cb-3ec0-4bd9-8531-3e746f6aa979)
+<img src= "https://github.com/peter890331/DeepFaceLab-Simple-Tutorial-in-Traditional-Chinese/blob/screenshots/404402857-26ce75cb-3ec0-4bd9-8531-3e746f6aa979.png" width="500px">
 
 
 
