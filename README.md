@@ -1,14 +1,14 @@
 # DeepFaceLab-Simple-Tutorial-in-Traditional-Chinese
 關於 DeepFaceLab 的繁體中文簡易教學。
 
+## 💢請勿使用在非法或可能傷害他人權益的用途。💢
+
 參考自 YouTube 影片：    
 [deepfacelab模型训练，换脸教程，绝对是全网最详细的！#deepface #Ai换脸#chatgpt #midjourney #deepfacelab #deepfacelive #直播换脸][1]
 
 在此只介紹最簡易的功能，詳細可以直接觀看影片，例如修正人臉辨識錯誤的功能。
 
 [1]: https://youtu.be/6-KPIXEajk8
-
-#### 💢請勿使用在非法或可能傷害他人權益的用途。💢
 
 ![image](https://github.com/user-attachments/assets/f6d7f3bc-697a-4af4-bc5e-82f8398e0a48)
 
