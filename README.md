@@ -132,7 +132,8 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 開始運行後，會跳出可提供預覽的窗口，    
 ![image](https://github.com/user-attachments/assets/90d14538-26ac-483a-8135-88471766fd2a)
 
-以英文輸入法對預覽窗口按下 p 鍵，可以更新預覽窗口，觀察最右行可以得知目前模型的訓練結果，上面也會顯示目前的 Iter(迭代次數)。    
+以英文輸入法對預覽窗口按下 p 鍵，可以更新預覽窗口，      
+觀察最右行可以得知目前模型的訓練結果，上面也會顯示目前的 Iter(迭代次數)。    
 ![image](https://github.com/user-attachments/assets/26ce75cb-3ec0-4bd9-8531-3e746f6aa979)
 
 
