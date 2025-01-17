@@ -10,7 +10,7 @@
 
 #### 💢請勿使用在非法或可能傷害他人權益的用途。💢
 
-![image](https://github.com/user-attachments/assets/e9ced3fe-a010-48d1-a7cb-9107fc6283bf)
+![image](https://github.com/user-attachments/assets/f6d7f3bc-697a-4af4-bc5e-82f8398e0a48)
 
 ## [DeepFaceLab][2]
 Releases：[Windows (Mega.nz)][3].    
