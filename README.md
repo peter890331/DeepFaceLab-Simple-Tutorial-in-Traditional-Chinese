@@ -51,7 +51,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
  [0] Which GPU indexes to choose? : 選擇使用 CPU 還是使用顯卡，一定要使用顯卡，默認為 0。
 - [wf] Face type ( f/wf/head ?:help ) : 選擇要切出來的人臉類型，f(臉)、wf(整張臉)、head(頭)，默認為 wf。
 - [0] Max number of faces from image ( ?:help ) : 摳臉圖片中的人臉的最大數量，默認為 0。
-- [512] Image size ( 256-2048 ?:help ) : 選擇要切出來的人臉大小，默認為 512。
+- [512] Image size ( 256-2048 ?:help ) : 選擇要切出來的人臉大小，默認為 512，可以自行調整。
 - [90] Jpeg quality ( 1-100 ?:help ) : 選擇要切出來的人臉品質，默認為 90。
 - [n] Write debug images to aligned_debug? ( y/n ) : 選擇是否要生成一份 debug 文件，默認為 n。
 
@@ -89,7 +89,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
    [0] : NVIDIA GeForce RTX 3080    
  [0] Which GPU indexes to choose? : 選擇使用 CPU 還是使用顯卡，一定要使用顯卡，默認為 0。
 - [wf] Face type ( f/wf/head ?:help ) : 選擇要切出來的人臉類型，f(臉)、wf(整張臉)、head(頭)，默認為 wf。
-- [512] Image size ( 256-2048 ?:help ) : 選擇要切出來的人臉大小，默認為 512。
+- [512] Image size ( 256-2048 ?:help ) : 選擇要切出來的人臉大小，默認為 512，可以自行調整。
 - [90] Jpeg quality ( 1-100 ?:help ) : 選擇要切出來的人臉品質，默認為 90。
 
 完成後可以查看 workspace/data_dst/aligned，會看到換臉圖片中的人臉再切出來的圖片。
