@@ -53,7 +53,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 接著點擊 **4) data_src faceset extract.bat**，將要摳臉圖片中的人臉再切出來。
 
 - [CPU] : CPU    
-   [0] : NVIDIA GeForce RTX 3080    
+   [0] : NVIDIA GeForce RTX XXXX    
  [0] Which GPU indexes to choose? : 選擇使用 CPU 還是使用顯卡，一定要使用顯卡，默認為 0。
 - [wf] Face type ( f/wf/head ?:help ) : 選擇要切出來的人臉類型，f(臉)、wf(整張臉)、head(頭)，默認為 wf。
 - [0] Max number of faces from image ( ?:help ) : 摳臉圖片中的人臉的最大數量，默認為 0。
@@ -92,7 +92,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 接著點擊 **5) data_dst faceset extract.bat**，將要換臉圖片中的人臉再切出來。
 
 - [CPU] : CPU    
-   [0] : NVIDIA GeForce RTX 3080    
+   [0] : NVIDIA GeForce RTX XXXX    
  [0] Which GPU indexes to choose? : 選擇使用 CPU 還是使用顯卡，一定要使用顯卡，默認為 0。
 - [wf] Face type ( f/wf/head ?:help ) : 選擇要切出來的人臉類型，f(臉)、wf(整張臉)、head(頭)，默認為 wf。
 - [512] Image size ( 256-2048 ?:help ) : 選擇要切出來的人臉大小，默認為 512，可以自行調整。
@@ -132,7 +132,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 
 - [new] No saved models found. Enter a name of a new model : 在沒有預設模型的情況下，命名新模型，隨意命名即可。
 - [CPU] : CPU    
-   [0] : NVIDIA GeForce RTX 3080    
+   [0] : NVIDIA GeForce RTX XXXX    
  [0] Which GPU indexes to choose? : 選擇使用 CPU 還是使用顯卡，一定要使用顯卡，默認為 0。
 
 開始運行後，會跳出可提供預覽的窗口，    
