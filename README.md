@@ -4,7 +4,7 @@
 參考自 YouTube 影片：    
 [deepfacelab模型训练，换脸教程，绝对是全网最详细的！#deepface #Ai换脸#chatgpt #midjourney #deepfacelab #deepfacelive #直播换脸][1]
 
-在此只介紹最簡易的功能，詳細可以直接觀看影片。
+在此只介紹最簡易的功能，詳細可以直接觀看影片，例如修正人臉辨識錯誤的功能。
 
 [1]: https://youtu.be/6-KPIXEajk8
 
