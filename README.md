@@ -13,6 +13,7 @@
 <img src= "https://github.com/peter890331/DeepFaceLab-Simple-Tutorial-in-Traditional-Chinese/blob/screenshots/404410172-f6d7f3bc-697a-4af4-bc5e-82f8398e0a48.png" width="1000px">
 
 ## [DeepFaceLab][2]
+DeepFaceLab is the leading software for creating deepfakes.
 ### download
 Releases：[Windows (Mega.nz)][3].    
 DeepFaceLab_NVIDIA_RTX3000_series_build_11_20_2021.exe 適合 RTX3060 以上的顯卡；    
