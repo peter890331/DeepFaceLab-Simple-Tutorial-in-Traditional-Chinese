@@ -60,7 +60,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 - [90] Jpeg quality ( 1-100 ?:help ) : 選擇要切出來的人臉品質，默認為 90。
 - [n] Write debug images to aligned_debug? ( y/n ) : 選擇是否要生成一份 debug 文件，默認為 n，但建議生成，後續會使用到，選擇 y。
 
-完成後可以查看 workspace/data_src/aligned，會看到摳臉圖片中的人臉再切出來的圖片。
+完成後可以查看 workspace/data_src/aligned，會看到摳臉圖片中的人臉再切出來的圖片；和 workspace/data_src/aligned_debug，會看到 debug 文件。
 
 ---
 
