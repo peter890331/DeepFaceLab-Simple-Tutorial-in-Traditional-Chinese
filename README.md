@@ -209,7 +209,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 
 ---
 
-若點擊 **1) clear workspace.bat**，可清空 workspace，在清空之前記得儲存 result.mp4。
+若點擊 **1) clear workspace.bat**，可清空 workspace。
 
 ---
 
