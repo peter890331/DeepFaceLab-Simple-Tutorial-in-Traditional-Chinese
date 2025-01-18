@@ -98,7 +98,8 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 - [512] Image size ( 256-2048 ?:help ) : 選擇要切出來的人臉大小，默認為 512，可以自行調整。
 - [90] Jpeg quality ( 1-100 ?:help ) : 選擇要切出來的人臉品質，默認為 90。
 
-完成後可以查看 workspace/data_dst/aligned，會看到換臉圖片中的人臉再切出來的圖片。
+完成後可以查看 workspace/data_dst/aligned，會看到換臉圖片中的人臉再切出來的圖片；    
+和 workspace/data_dst/aligned_debug，會看到 debug 文件。
 
 ---
 
