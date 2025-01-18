@@ -6,7 +6,7 @@
 參考自 YouTube 影片：    
 [deepfacelab模型训练，换脸教程，绝对是全网最详细的！#deepface #Ai换脸#chatgpt #midjourney #deepfacelab #deepfacelive #直播换脸][1]
 
-在此只介紹最簡易的功能，詳細可以直接觀看影片，例如修正人臉辨識錯誤的功能。
+在此只介紹最簡易的功能，詳細可以直接觀看影片。
 
 [1]: https://youtu.be/6-KPIXEajk8
 
@@ -127,6 +127,29 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 
 ---
 
+再來，檢查是否有識別錯誤的圖片，例如 是要換臉的對象，但臉的角度錯誤；或識別到錯誤的對象；或根本沒識別到要換臉的對象。
+
+手動檢查 workspace/data_dst/aligned_debug 中識別錯誤的圖片，    
+可以按住方向鍵的右鍵，一張一張檢查，當發現有識別錯誤的圖片，直接刪除圖片即可。
+ 
+點擊 **5) data_dst faceset MANUAL RE-EXTRACT DELETED ALIGNED_DEBUG.bat**，
+
+- [CPU] : CPU    
+  [0] : NVIDIA GeForce RTX XXXX    
+  [0] Which GPU indexes to choose? : 選擇使用 CPU 還是使用顯卡，一定要使用顯卡，默認為 0。
+- [512] Image size ( 256-2048 ?:help ) : 選擇要切出來的人臉大小，默認為 512，可以自行調整。
+- [90] Jpeg quality ( 1-100 ?:help ) : 選擇要切出來的人臉品質，默認為 90。
+
+開始運行後，會跳出可提供修改刪除圖片的窗口，    
+<img src= "https://github.com/peter890331/DeepFaceLab-Simple-Tutorial-in-Traditional-Chinese/blob/screenshots/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202025-01-18%20150314.png" width="500px">
+
+以滑鼠指標手動對照正確的人臉輪廓，滾動滑鼠滾輪可以縮放大小，當對照到正確的人臉輪廓時，按 enter 鍵，繼續修改下一張的刪除圖片；    
+如果刪除圖片真的太模糊或刁鑽，那就沒辦法。
+
+所有刪除圖片都修改完成後，再到 workspace/data_dst/aligned_debug 刪除那些不需要換臉的對象的圖片，較保險。
+
+---
+
 接著即可開始訓練模型，    
 點擊 6) train AMP SRC-SRC.bat、6) train AMP.bat、6) train Quick96.bat、6) train SAEHD.bat 皆可，    
 建議選擇 **6) train Quick96.bat**，較快速且簡單。
@@ -182,7 +205,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 - [y] Use interactive merger? ( y/n ) : 選擇是否打開調節面板，一定要打開，默認為 y。
 - 後續皆直接按 enter 即可。
 
-運行過後，會看到調節面板出現，調節面板用來渲染換臉的效果，      
+開始運行後，會看到調節面板出現，調節面板用來渲染換臉的效果，      
 <img src= "https://github.com/peter890331/DeepFaceLab-Simple-Tutorial-in-Traditional-Chinese/blob/screenshots/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202025-01-18%20135017.png" width="500px">
 
 按 tab 鍵可以切換調節面板和當前正在調節的換臉圖片，      
