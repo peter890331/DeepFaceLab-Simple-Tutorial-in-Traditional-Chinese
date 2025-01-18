@@ -230,7 +230,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 
 - 後續皆直接按 enter 即可。
 
-當 Done 出現時，即合成完成，可以查看 workspace/result.mp4，即最終換臉結果。
+當 Done 出現時，即合成完成，可以查看 **workspace/result.mp4**，即最終換臉結果。
 
 ---
 
