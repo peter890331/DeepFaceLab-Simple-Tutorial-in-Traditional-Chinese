@@ -79,7 +79,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
   \[1] motion_blur    
   \[2] face yaw direction    
   \[3] face pitch direction    
-  [4] face rect size in source image    
+  \[4] face rect size in source image    
   [5] histogram similarity    
   [6] histogram dissimilarity    
   [7] brightness    
@@ -119,7 +119,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
   \[1] motion_blur    
   \[2] face yaw direction    
   \[3] face pitch direction    
-  [4] face rect size in source image    
+  \[4] face rect size in source image    
   [5] histogram similarity    
   [6] histogram dissimilarity    
   [7] brightness    
