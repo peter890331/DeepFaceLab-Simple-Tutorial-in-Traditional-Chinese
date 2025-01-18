@@ -221,11 +221,14 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 <img src= "https://github.com/peter890331/DeepFaceLab-Simple-Tutorial-in-Traditional-Chinese/blob/screenshots/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202025-01-18%20135017.png" width="500px">
 
 按 tab 鍵可以切換調節面板和當前正在調節的換臉圖片，      
+<img src= "https://github.com/peter890331/DeepFaceLab-Simple-Tutorial-in-Traditional-Chinese/blob/screenshots/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202025-01-18%20220858.png" width="500px">
+
 以英文輸入法，      
 按 ` 鍵可以將換臉圖片切換回原始的臉進行觀察，按 1~6 鍵可以使用不同的換臉模式，建議按 1 鍵。      
-按 w 鍵和 s 鍵調節侵蝕模式，讓換臉的遮罩自然一點。      
-按 e 鍵和 d 鍵調節邊緣羽化模式，讓換臉的遮罩自然一點。   
-調節面板上的其他按鍵對應不同的調節模式，可以自行嘗試調節。      
+按 w 鍵和 s 鍵調節侵蝕模式（小寫 w 鍵和 s 鍵一次調整數值 1，大寫 W 鍵和 S 鍵一次調整數值 5），讓換臉的遮罩自然一點。      
+按 e 鍵和 d 鍵調節邊緣羽化模式（小寫 e 鍵和 d 鍵一次調整數值 1，大寫 E 鍵和 D 鍵一次調整數值 5），讓換臉的遮罩自然一點。   
+調節面板上的其他按鍵對應不同的調節模式，可以自行嘗試調節。     
+<img src= "https://github.com/peter890331/DeepFaceLab-Simple-Tutorial-in-Traditional-Chinese/blob/screenshots/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202025-01-18%20221122.png" width="500px">
 
 當調節好一張圖片時，按 > 鍵可以切換到下一張換臉圖片。      
 當換臉圖片數量太多時，按 shift + > 鍵，可以以當前調節的設定自動調節後續換臉圖片。      
