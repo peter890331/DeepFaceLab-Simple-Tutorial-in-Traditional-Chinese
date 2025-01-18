@@ -123,7 +123,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
   [14] best faces faster    
   [5] : 選擇需要的排序方法，默認為 5。
 
-手動刪除 workspace/data_dst/aligned 中不必要的人臉，包括不是要換臉的對象。
+手動刪除 workspace/data_dst/aligned 中不必要的人臉，包括不是要換臉的對象、不相關的人臉。
 
 ---
 
