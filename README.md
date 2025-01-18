@@ -15,7 +15,8 @@
 ## [DeepFaceLab][2]
 Releases：[Windows (Mega.nz)][3].    
 DeepFaceLab_NVIDIA_RTX3000_series_build_11_20_2021.exe 適合 RTX3060 以上的顯卡；    
-DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的顯卡。 
+DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的顯卡。   
+訓練時間根據電腦效能有所不同。
 
 其 [GitHub][2] 中還有其他下載連結。
 
