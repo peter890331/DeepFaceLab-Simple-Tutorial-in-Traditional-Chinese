@@ -141,7 +141,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 - [90] Jpeg quality ( 1-100 ?:help ) : 選擇要切出來的人臉品質，默認為 90。
 
 開始運行後，會跳出可提供修改刪除圖片的窗口，    
-<img src= "https://github.com/peter890331/DeepFaceLab-Simple-Tutorial-in-Traditional-Chinese/blob/screenshots/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202025-01-18%20150314.png" width="500px">
+<img src= "https://github.com/peter890331/DeepFaceLab-Simple-Tutorial-in-Traditional-Chinese/blob/screenshots/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202025-01-18%20150314.png" width="300px">
 
 以滑鼠指標手動對照正確的人臉輪廓，滾動滑鼠滾輪可以縮放大小，當對照到正確的人臉輪廓時，按 enter 鍵，繼續修改下一張的刪除圖片；    
 如果刪除圖片真的太模糊或刁鑽，那就沒辦法。
