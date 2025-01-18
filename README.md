@@ -3,10 +3,10 @@
 
 ## 💢請勿使用在非法或可能傷害他人權益的用途。💢
 
-參考自 YouTube 影片：    
+此教學參考自 YouTube 影片：    
 [deepfacelab模型训练，换脸教程，绝对是全网最详细的！#deepface #Ai换脸#chatgpt #midjourney #deepfacelab #deepfacelive #直播换脸][1]
 
-在此只介紹最簡易的功能，詳細可以直接觀看影片。
+此教學只介紹最簡易的功能，詳細可以直接觀看影片。
 
 [1]: https://youtu.be/6-KPIXEajk8
 
