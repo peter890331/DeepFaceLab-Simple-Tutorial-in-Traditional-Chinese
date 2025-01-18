@@ -238,8 +238,8 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 
 ---
 
-
-
+此教學為在製作朋友的生日驚喜時順便編寫，
+## 💢請勿使用在非法或可能傷害他人權益的用途。💢
 
 [2]: https://github.com/iperov/DeepFaceLab
 [3]: https://mega.nz/folder/Po0nGQrA#dbbttiNWojCt8jzD4xYaPw
