@@ -13,6 +13,7 @@
 <img src= "https://github.com/peter890331/DeepFaceLab-Simple-Tutorial-in-Traditional-Chinese/blob/screenshots/404410172-f6d7f3bc-697a-4af4-bc5e-82f8398e0a48.png" width="1000px">
 
 ## [DeepFaceLab][2]
+### download
 Releases：[Windows (Mega.nz)][3].    
 DeepFaceLab_NVIDIA_RTX3000_series_build_11_20_2021.exe 適合 RTX3060 以上的顯卡；    
 DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的顯卡。   
@@ -25,6 +26,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 
 ---
 
+### workspace
 在解壓縮後的資料夾中，**workspace** 是工作區域，儲存要摳臉的影片和要換臉的影片，以及其他結果。    
 
 將要摳臉的影片存入 workspace 並命名為 **data_src.mp4**；    
@@ -33,6 +35,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 
 ---
 
+### 2) extract images from video data_src.bat
 在確認好兩者影片後，點擊 **2) extract images from video data_src.bat**，將要摳臉的影片一幀一幀切開。    
 
 - [0] Enter FPS ( ?:help ) : 選擇幀率，默認為 0，可以依 data_src.mp4 的幀率調整。    
@@ -42,6 +45,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 
 ---
 
+### 3) extract images from video data_dst FULL FPS.bat
 接著點擊 **3) extract images from video data_dst FULL FPS.bat**，將要換臉的影片一幀一幀切開。    
 
 - [png] Output image format ( png/jpg ?:help ) : 切開的圖片格式，默認為 png。    
@@ -50,6 +54,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 
 ---
 
+### 4) data_src faceset extract.bat
 接著點擊 **4) data_src faceset extract.bat**，將要摳臉圖片中的人臉再切出來。
 
 - [CPU] : CPU    
@@ -66,6 +71,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 
 ---
 
+### 4.2) data_src sort.bat
 再來，點擊 **4.2) data_src sort.bat**，排序 workspace/data_src/aligned 中的圖片，方便手動刪除不必要的人臉。
 
 - Choose sorting method:    
@@ -90,6 +96,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 
 ---
 
+### 5) data_dst faceset extract.bat
 接著點擊 **5) data_dst faceset extract.bat**，將要換臉圖片中的人臉再切出來。
 
 - [CPU] : CPU    
@@ -104,6 +111,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 
 ---
 
+### 5.2) data_dst sort.bat
 再來，點擊 **5.2) data_dst sort.bat**，排序 workspace/data_dst/aligned 中的圖片，方便手動刪除不必要的人臉。
 
 - Choose sorting method:    
@@ -128,6 +136,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 
 ---
 
+### 5) data_dst faceset MANUAL RE-EXTRACT DELETED ALIGNED_DEBUG.bat
 再來，檢查是否有識別錯誤的圖片，例如 是要換臉的對象，但臉的角度錯誤；或識別到錯誤的對象；或根本沒識別到要換臉的對象。
 
 手動檢查 workspace/data_dst/aligned_debug 中識別錯誤的圖片，    
@@ -151,6 +160,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 
 ---
 
+### 6) train XXX.bat
 接著即可開始訓練模型，    
 點擊 6) train AMP SRC-SRC.bat、6) train AMP.bat、6) train Quick96.bat、6) train SAEHD.bat 皆可，    
 建議選擇 **6) train Quick96.bat**，較快速且簡單。
@@ -192,6 +202,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 
 ---
 
+### 7) merge XXX.bat
 再來進行畫面的調節，      
 點擊 7) merge AMP.bat、7) merge Quick96.bat、7) merge SAEHD.bat 中，模型使用的對應 bat 檔。
 
@@ -226,6 +237,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 
 ---
 
+### 8) merged to mp4.bat
 最後一步，將換臉完成的圖片合成影片，      
 點擊 **8) merged to mp4.bat**。
 
@@ -235,6 +247,7 @@ DeepFaceLab_NVIDIA_up_to_RTX2080Ti_build_11_20_2021.exe 適合 RTX3060 以下的
 
 ---
 
+### 1) clear workspace.bat
 若點擊 **1) clear workspace.bat**，可清空 workspace。
 
 ---
